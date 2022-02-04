@@ -1,0 +1,118 @@
+/* logo秒杀 */
+.sk {
+    position: absolute;
+    left: 185px;
+    padding-left: 15px;
+    padding-top: 4px;
+    top: 40px;
+    border-left: 1px solid #cb1623;
+}
+.nav .navitems_1 {
+    float: left;
+    margin-left: 20px;
+}
+.nav .navitems_1 ul li {
+    float: left;
+}
+.nav .navitems_1 ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px; 
+    padding:5px  25px 0px;
+}
+.nav .navitems_1 ul li:nth-child(-n+3) a {
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav .navitems_1 ul li a:hover {
+    color: #cb1623;
+}
+.nav .navitems_1 ul li:last-child a::after {
+    content: '\e8a4';
+    font-family: 'iconfont';
+    margin-left: 2px;
+}
+/* 列表页专有模块 */
+.sk_container {
+    position: relative;
+}
+.sk_bd {
+    overflow: hidden;
+}
+.sk_bd ul li{
+    float: left;
+    width: 290px;
+    height: 461px;
+    margin-left: 13px;
+}
+.sk_bd ul li:first-child {
+    margin-left: 0px;
+}
+.sk_bd ul li>div {
+    text-align: left;
+    border: 1px solid transparent;
+    border-bottom: 0px;
+    height: 411px;
+}
+.sk_bd ul li button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #b1191a;
+}
+.sk_bd ul li div a:first-child {
+    display: block;
+    height: 295px;
+    background: url(../images/列表页/images/iphone_03.png) no-repeat center center;
+}
+.sk_bd ul li div a:nth-child(n+2) {
+    display: block;
+    padding-left: 10px;
+}
+.sk_bd ul li>div>span {
+    font-size: 22px;
+    color: #cb1623;
+    margin-left: 10px;
+}
+.sk_bd ul li>div>del {
+    color: #a4a4a4;
+    margin-left: 7px;
+}
+.sk_bd .process {
+    padding-left: 10px;
+}
+.sk_bd .process span {
+    color: #747474;
+}
+.sk_bd .process i {
+    color: #cb1623;
+    font-style: normal;
+}
+.sk_bd .outside {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #cb1623;
+    border-radius: 6px;
+    margin: 0px 12px;
+}
+.sk_bd .inside {
+    width: 20%;
+    height: 100%;
+    background-color: #cb1623;
+    transition: all 0.5s ease 0s;
+    border-radius: 6px 0px 0px 6px;
+}
+.sk_bd ul li>div:hover {
+    border-color: #b1191a;
+}
+.sk_bd ul li>div:hover .inside {
+    width: 87%;
+}
+.back_top {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 600px;
+}

@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+button:hover {
+    cursor: pointer;
+}
+.core {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: grey; */
+}
+.iconfont {
+    font-family: "iconfont";
+}
+/* 头部区域 */
+.header {
+    height: 85px;
+    border-bottom: 2px solid #b1191a;
+}
+.header .logo {
+    padding-top: 16px;
+}
+/* 主题区域 */
+.register_area {
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+}
+.register_area h3 {
+    height: 42px;
+    line-height: 42px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dddddd;
+}
+.register_area .denglu {
+    margin-right: 10px;
+    float: right;
+}
+.register_area .denglu a {
+    text-decoration: none;
+    color: #c81623;
+}
+.register_area .denglu a:hover {
+    text-decoration: underline;
+}
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0px;
+}
+.reg_form ul li {
+    height: 40px;
+    margin-top: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    font-size: 14px;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li .inp {
+    height: 40px;
+    width: 242px;
+}
+.reg_form ul li .error{
+    color: #df3033;
+    font-size: 12px;
+}
+.reg_form ul li .error::before {
+    content: '\e7bb';
+    font-family: 'iconfont';
+}
+.check input{
+    margin-left: 90px;
+    vertical-align: middle;
+}
+.check {
+    font-size: 12px;
+    line-height: 40px;
+}
+.check a {
+    text-decoration: none;
+    color: #1ba1e6;
+}
+.reg_form button{
+    border:0px;
+    width: 200px;
+    height: 34px;
+    font-size: 14px;
+    margin-left: 100px;
+    color: white;
+    background-color: #c81623;
+}
+.reg_form .safe {
+    font-size: 12px;
+    margin-top: 11px;
+    height: 13px;
+    padding-left: 165px;
+    color: #666666;
+}
+.safe em {
+    font-style: normal;
+    padding: 0px 12px;
+    color: white;
+    line-height: 13px;
+}
+.red {
+    background-color: #de1111;
+}
+.green {
+    background-color: #40b83f;
+}
+.orange {
+    background-color: #f79100;
+}
+/* 底部区域 */
+.footer {
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color: #666666;
+}
+.footer a:hover {
+    color: #c81623;
+}
+.mod_copyright {
+    padding-top: 15px;
+}
+.link {
+    overflow: hidden;
+    padding-left: 118px;
+}
+.mod_copyright .link ul li {
+    float: left;
+}
+.mod_copyright .link ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    margin: 6px 16px 0px;
+    background-color: #666666;
+}
+.mod_copyright .copyright{
+    color: #666666;
+}
